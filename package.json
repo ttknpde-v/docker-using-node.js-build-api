@@ -1,0 +1,19 @@
+{
+  "name": "building-basic-api-using-node",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./controller/control.api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./controller/control.api.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "winston": "^3.11.0"
+  }
+}
